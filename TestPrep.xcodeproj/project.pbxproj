@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4D66D719141CCD002A5279 /* Samba.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA4D66D619141CCD002A5279 /* Samba.ttf */; };
+		EA50D4031908D1120058DEB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA50D4021908D1120058DEB8 /* Foundation.framework */; };
+		EA50D4051908D1120058DEB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA50D4041908D1120058DEB8 /* CoreGraphics.framework */; };
+		EA50D4071908D1120058DEB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA50D4061908D1120058DEB8 /* UIKit.framework */; };
+		EA50D40D1908D1120058DEB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA50D40B1908D1120058DEB8 /* InfoPlist.strings */; };
+		EA50D40F1908D1120058DEB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA50D40E1908D1120058DEB8 /* main.m */; };
+		EA50D4131908D1120058DEB8 /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA50D4121908D1120058DEB8 /* TPAppDelegate.m */; };
+		EA50D4161908D1120058DEB8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA50D4141908D1120058DEB8 /* Main_iPhone.storyboard */; };
+		EA50D4191908D1120058DEB8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA50D4171908D1120058DEB8 /* Main_iPad.storyboard */; };
+		EA50D41E1908D1120058DEB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA50D41D1908D1120058DEB8 /* Images.xcassets */; };
+		EA50D4251908D1130058DEB8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA50D4241908D1130058DEB8 /* XCTest.framework */; };
+		EA50D4261908D1130058DEB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA50D4021908D1120058DEB8 /* Foundation.framework */; };
+		EA50D4271908D1130058DEB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA50D4061908D1120058DEB8 /* UIKit.framework */; };
+		EA50D42F1908D1130058DEB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA50D42D1908D1130058DEB8 /* InfoPlist.strings */; };
+		EA50D4311908D1130058DEB8 /* TestPrepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA50D4301908D1130058DEB8 /* TestPrepTests.m */; };
+		EA50D43C1908DCBE0058DEB8 /* TPCoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA50D43B1908DCBE0058DEB8 /* TPCoursesTableViewController.m */; };
+		EA50D43F1908DDF60058DEB8 /* TPQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA50D43E1908DDF60058DEB8 /* TPQuestionsViewController.m */; };
+		EA97152E190A116B002265AB /* TPOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97152D190A116B002265AB /* TPOverviewViewController.m */; };
+		EA971531190B6D48002265AB /* TPDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA971530190B6D48002265AB /* TPDataModel.m */; };
+		EA971534190B796F002265AB /* TPAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA971533190B796F002265AB /* TPAnswer.m */; };
+		EAC0B78C191557D600395076 /* Intro to Sociology.csv in Resources */ = {isa = PBXBuildFile; fileRef = EAC0B78B191557D600395076 /* Intro to Sociology.csv */; };
+		EAC0B78E191561EF00395076 /* Intro to Psychology.csv in Resources */ = {isa = PBXBuildFile; fileRef = EAC0B78D191561EF00395076 /* Intro to Psychology.csv */; };
+		EAC0B790191568D500395076 /* Human Growth and Development.csv in Resources */ = {isa = PBXBuildFile; fileRef = EAC0B78F191568D500395076 /* Human Growth and Development.csv */; };
+		EAC0B79219156D5C00395076 /* Business Ethics.csv in Resources */ = {isa = PBXBuildFile; fileRef = EAC0B79119156D5C00395076 /* Business Ethics.csv */; };
+		EAC0B794191574E500395076 /* Educational Psychology.csv in Resources */ = {isa = PBXBuildFile; fileRef = EAC0B793191574E500395076 /* Educational Psychology.csv */; };
+		EAC0B796191579A200395076 /* Ethics in America.csv in Resources */ = {isa = PBXBuildFile; fileRef = EAC0B795191579A200395076 /* Ethics in America.csv */; };
+		EAC8BA95192ACA1D0049DB2E /* TestList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAC8BA94192ACA1D0049DB2E /* TestList.plist */; };
+		EAC8BADA192C25470049DB2E /* TPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC8BAD9192C25470049DB2E /* TPTableViewCell.m */; };
+		EAF53A361912F0DB000B7936 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF53A351912F0DB000B7936 /* XYPieChart.m */; };
+		EAF53A381912F0F2000B7936 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF53A371912F0F2000B7936 /* QuartzCore.framework */; };
+		EAF63B1D1941311300C38AB7 /* TPNumbersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF63B1C1941311300C38AB7 /* TPNumbersViewController.m */; };
+		EAF63B251941392700C38AB7 /* Business Ethics.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF63B1E1941392700C38AB7 /* Business Ethics.png */; };
+		EAF63B261941392700C38AB7 /* Business Math.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF63B1F1941392700C38AB7 /* Business Math.png */; };
+		EAF63B271941392700C38AB7 /* Educational Psychology.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF63B201941392700C38AB7 /* Educational Psychology.png */; };
+		EAF63B281941392700C38AB7 /* Ethics in America.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF63B211941392700C38AB7 /* Ethics in America.png */; };
+		EAF63B291941392700C38AB7 /* Human Growth and Development.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF63B221941392700C38AB7 /* Human Growth and Development.png */; };
+		EAF63B2A1941392700C38AB7 /* Intro to Psychology.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF63B231941392700C38AB7 /* Intro to Psychology.png */; };
+		EAF63B2B1941392700C38AB7 /* Intro to Sociology.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF63B241941392700C38AB7 /* Intro to Sociology.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA50D4281908D1130058DEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA50D3F71908D1120058DEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA50D3FE1908D1120058DEB8;
+			remoteInfo = TestPrep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA4D66D619141CCD002A5279 /* Samba.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Samba.ttf; sourceTree = "<group>"; };
+		EA50D3FF1908D1120058DEB8 /* TestPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA50D4021908D1120058DEB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA50D4041908D1120058DEB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA50D4061908D1120058DEB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA50D40A1908D1120058DEB8 /* TestPrep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPrep-Info.plist"; sourceTree = "<group>"; };
+		EA50D40C1908D1120058DEB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA50D40E1908D1120058DEB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA50D4101908D1120058DEB8 /* TestPrep-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestPrep-Prefix.pch"; sourceTree = "<group>"; };
+		EA50D4111908D1120058DEB8 /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppDelegate.h; sourceTree = "<group>"; };
+		EA50D4121908D1120058DEB8 /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAppDelegate.m; sourceTree = "<group>"; };
+		EA50D4151908D1120058DEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EA50D4181908D1120058DEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EA50D41D1908D1120058DEB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA50D4231908D1130058DEB8 /* TestPrepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPrepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA50D4241908D1130058DEB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA50D42C1908D1130058DEB8 /* TestPrepTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPrepTests-Info.plist"; sourceTree = "<group>"; };
+		EA50D42E1908D1130058DEB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA50D4301908D1130058DEB8 /* TestPrepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPrepTests.m; sourceTree = "<group>"; };
+		EA50D43A1908DCBE0058DEB8 /* TPCoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCoursesTableViewController.h; sourceTree = "<group>"; };
+		EA50D43B1908DCBE0058DEB8 /* TPCoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCoursesTableViewController.m; sourceTree = "<group>"; };
+		EA50D43D1908DDF60058DEB8 /* TPQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPQuestionsViewController.h; sourceTree = "<group>"; };
+		EA50D43E1908DDF60058DEB8 /* TPQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPQuestionsViewController.m; sourceTree = "<group>"; };
+		EA97152C190A116B002265AB /* TPOverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPOverviewViewController.h; sourceTree = "<group>"; };
+		EA97152D190A116B002265AB /* TPOverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPOverviewViewController.m; sourceTree = "<group>"; };
+		EA97152F190B6D48002265AB /* TPDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDataModel.h; sourceTree = "<group>"; };
+		EA971530190B6D48002265AB /* TPDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDataModel.m; sourceTree = "<group>"; };
+		EA971532190B796F002265AB /* TPAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPAnswer.h; sourceTree = "<group>"; };
+		EA971533190B796F002265AB /* TPAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPAnswer.m; sourceTree = "<group>"; };
+		EAC0B78B191557D600395076 /* Intro to Sociology.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Intro to Sociology.csv"; sourceTree = "<group>"; };
+		EAC0B78D191561EF00395076 /* Intro to Psychology.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Intro to Psychology.csv"; sourceTree = "<group>"; };
+		EAC0B78F191568D500395076 /* Human Growth and Development.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Human Growth and Development.csv"; sourceTree = "<group>"; };
+		EAC0B79119156D5C00395076 /* Business Ethics.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Business Ethics.csv"; sourceTree = "<group>"; };
+		EAC0B793191574E500395076 /* Educational Psychology.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Educational Psychology.csv"; sourceTree = "<group>"; };
+		EAC0B795191579A200395076 /* Ethics in America.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ethics in America.csv"; sourceTree = "<group>"; };
+		EAC8BA94192ACA1D0049DB2E /* TestList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestList.plist; sourceTree = "<group>"; };
+		EAC8BAD8192C25470049DB2E /* TPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTableViewCell.h; sourceTree = "<group>"; };
+		EAC8BAD9192C25470049DB2E /* TPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPTableViewCell.m; sourceTree = "<group>"; };
+		EAF53A341912F0DB000B7936 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		EAF53A351912F0DB000B7936 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		EAF53A371912F0F2000B7936 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAF63B1B1941311300C38AB7 /* TPNumbersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPNumbersViewController.h; sourceTree = "<group>"; };
+		EAF63B1C1941311300C38AB7 /* TPNumbersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPNumbersViewController.m; sourceTree = "<group>"; };
+		EAF63B1E1941392700C38AB7 /* Business Ethics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Business Ethics.png"; sourceTree = "<group>"; };
+		EAF63B1F1941392700C38AB7 /* Business Math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Business Math.png"; sourceTree = "<group>"; };
+		EAF63B201941392700C38AB7 /* Educational Psychology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Educational Psychology.png"; sourceTree = "<group>"; };
+		EAF63B211941392700C38AB7 /* Ethics in America.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ethics in America.png"; sourceTree = "<group>"; };
+		EAF63B221941392700C38AB7 /* Human Growth and Development.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Human Growth and Development.png"; sourceTree = "<group>"; };
+		EAF63B231941392700C38AB7 /* Intro to Psychology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Intro to Psychology.png"; sourceTree = "<group>"; };
+		EAF63B241941392700C38AB7 /* Intro to Sociology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Intro to Sociology.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA50D3FC1908D1120058DEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF53A381912F0F2000B7936 /* QuartzCore.framework in Frameworks */,
+				EA50D4051908D1120058DEB8 /* CoreGraphics.framework in Frameworks */,
+				EA50D4071908D1120058DEB8 /* UIKit.framework in Frameworks */,
+				EA50D4031908D1120058DEB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA50D4201908D1130058DEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA50D4251908D1130058DEB8 /* XCTest.framework in Frameworks */,
+				EA50D4271908D1130058DEB8 /* UIKit.framework in Frameworks */,
+				EA50D4261908D1130058DEB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4D66D519141C6A002A5279 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA4D66D619141CCD002A5279 /* Samba.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		EA50D3F61908D1120058DEB8 = {
+			isa = PBXGroup;
+			children = (
+				EA50D4081908D1120058DEB8 /* TestPrep */,
+				EA50D42A1908D1130058DEB8 /* TestPrepTests */,
+				EA50D4011908D1120058DEB8 /* Frameworks */,
+				EA50D4001908D1120058DEB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA50D4001908D1120058DEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA50D3FF1908D1120058DEB8 /* TestPrep.app */,
+				EA50D4231908D1130058DEB8 /* TestPrepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA50D4011908D1120058DEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAF53A371912F0F2000B7936 /* QuartzCore.framework */,
+				EA50D4021908D1120058DEB8 /* Foundation.framework */,
+				EA50D4041908D1120058DEB8 /* CoreGraphics.framework */,
+				EA50D4061908D1120058DEB8 /* UIKit.framework */,
+				EA50D4241908D1130058DEB8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA50D4081908D1120058DEB8 /* TestPrep */ = {
+			isa = PBXGroup;
+			children = (
+				EAC8BAD7192C24E20049DB2E /* Resources */,
+				EAF53A341912F0DB000B7936 /* XYPieChart.h */,
+				EAF53A351912F0DB000B7936 /* XYPieChart.m */,
+				EA50D4111908D1120058DEB8 /* TPAppDelegate.h */,
+				EA50D4121908D1120058DEB8 /* TPAppDelegate.m */,
+				EA50D4141908D1120058DEB8 /* Main_iPhone.storyboard */,
+				EA50D4171908D1120058DEB8 /* Main_iPad.storyboard */,
+				EA50D43A1908DCBE0058DEB8 /* TPCoursesTableViewController.h */,
+				EA50D43B1908DCBE0058DEB8 /* TPCoursesTableViewController.m */,
+				EA97152C190A116B002265AB /* TPOverviewViewController.h */,
+				EA97152D190A116B002265AB /* TPOverviewViewController.m */,
+				EA50D43D1908DDF60058DEB8 /* TPQuestionsViewController.h */,
+				EA50D43E1908DDF60058DEB8 /* TPQuestionsViewController.m */,
+				EAF63B1B1941311300C38AB7 /* TPNumbersViewController.h */,
+				EAF63B1C1941311300C38AB7 /* TPNumbersViewController.m */,
+				EA97152F190B6D48002265AB /* TPDataModel.h */,
+				EA971530190B6D48002265AB /* TPDataModel.m */,
+				EA971532190B796F002265AB /* TPAnswer.h */,
+				EA971533190B796F002265AB /* TPAnswer.m */,
+				EAC8BAD8192C25470049DB2E /* TPTableViewCell.h */,
+				EAC8BAD9192C25470049DB2E /* TPTableViewCell.m */,
+				EA50D41D1908D1120058DEB8 /* Images.xcassets */,
+				EA50D4091908D1120058DEB8 /* Supporting Files */,
+			);
+			path = TestPrep;
+			sourceTree = "<group>";
+		};
+		EA50D4091908D1120058DEB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA50D40A1908D1120058DEB8 /* TestPrep-Info.plist */,
+				EA50D40B1908D1120058DEB8 /* InfoPlist.strings */,
+				EA50D40E1908D1120058DEB8 /* main.m */,
+				EA50D4101908D1120058DEB8 /* TestPrep-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA50D42A1908D1130058DEB8 /* TestPrepTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA50D4301908D1130058DEB8 /* TestPrepTests.m */,
+				EA50D42B1908D1130058DEB8 /* Supporting Files */,
+			);
+			path = TestPrepTests;
+			sourceTree = "<group>";
+		};
+		EA50D42B1908D1130058DEB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA50D42C1908D1130058DEB8 /* TestPrepTests-Info.plist */,
+				EA50D42D1908D1130058DEB8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC8BAD7192C24E20049DB2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAC8BA94192ACA1D0049DB2E /* TestList.plist */,
+				EAC0B78B191557D600395076 /* Intro to Sociology.csv */,
+				EAC0B78D191561EF00395076 /* Intro to Psychology.csv */,
+				EAC0B78F191568D500395076 /* Human Growth and Development.csv */,
+				EAC0B793191574E500395076 /* Educational Psychology.csv */,
+				EAC0B79119156D5C00395076 /* Business Ethics.csv */,
+				EAC0B795191579A200395076 /* Ethics in America.csv */,
+				EAF63B1E1941392700C38AB7 /* Business Ethics.png */,
+				EAF63B1F1941392700C38AB7 /* Business Math.png */,
+				EAF63B201941392700C38AB7 /* Educational Psychology.png */,
+				EAF63B211941392700C38AB7 /* Ethics in America.png */,
+				EAF63B221941392700C38AB7 /* Human Growth and Development.png */,
+				EAF63B231941392700C38AB7 /* Intro to Psychology.png */,
+				EAF63B241941392700C38AB7 /* Intro to Sociology.png */,
+				EA4D66D519141C6A002A5279 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA50D3FE1908D1120058DEB8 /* TestPrep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA50D4341908D1130058DEB8 /* Build configuration list for PBXNativeTarget "TestPrep" */;
+			buildPhases = (
+				EA50D3FB1908D1120058DEB8 /* Sources */,
+				EA50D3FC1908D1120058DEB8 /* Frameworks */,
+				EA50D3FD1908D1120058DEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPrep;
+			productName = TestPrep;
+			productReference = EA50D3FF1908D1120058DEB8 /* TestPrep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA50D4221908D1130058DEB8 /* TestPrepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA50D4371908D1130058DEB8 /* Build configuration list for PBXNativeTarget "TestPrepTests" */;
+			buildPhases = (
+				EA50D41F1908D1130058DEB8 /* Sources */,
+				EA50D4201908D1130058DEB8 /* Frameworks */,
+				EA50D4211908D1130058DEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA50D4291908D1130058DEB8 /* PBXTargetDependency */,
+			);
+			name = TestPrepTests;
+			productName = TestPrepTests;
+			productReference = EA50D4231908D1130058DEB8 /* TestPrepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA50D3F71908D1120058DEB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tad Scritchfield";
+				TargetAttributes = {
+					EA50D4221908D1130058DEB8 = {
+						TestTargetID = EA50D3FE1908D1120058DEB8;
+					};
+				};
+			};
+			buildConfigurationList = EA50D3FA1908D1120058DEB8 /* Build configuration list for PBXProject "TestPrep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA50D3F61908D1120058DEB8;
+			productRefGroup = EA50D4001908D1120058DEB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA50D3FE1908D1120058DEB8 /* TestPrep */,
+				EA50D4221908D1130058DEB8 /* TestPrepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA50D3FD1908D1120058DEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC0B78C191557D600395076 /* Intro to Sociology.csv in Resources */,
+				EAF63B281941392700C38AB7 /* Ethics in America.png in Resources */,
+				EAF63B2B1941392700C38AB7 /* Intro to Sociology.png in Resources */,
+				EA50D4191908D1120058DEB8 /* Main_iPad.storyboard in Resources */,
+				EAF63B251941392700C38AB7 /* Business Ethics.png in Resources */,
+				EA50D41E1908D1120058DEB8 /* Images.xcassets in Resources */,
+				EAF63B271941392700C38AB7 /* Educational Psychology.png in Resources */,
+				EA50D4161908D1120058DEB8 /* Main_iPhone.storyboard in Resources */,
+				EAC0B796191579A200395076 /* Ethics in America.csv in Resources */,
+				EAF63B291941392700C38AB7 /* Human Growth and Development.png in Resources */,
+				EAF63B261941392700C38AB7 /* Business Math.png in Resources */,
+				EAC0B79219156D5C00395076 /* Business Ethics.csv in Resources */,
+				EAC0B78E191561EF00395076 /* Intro to Psychology.csv in Resources */,
+				EAC0B794191574E500395076 /* Educational Psychology.csv in Resources */,
+				EAC8BA95192ACA1D0049DB2E /* TestList.plist in Resources */,
+				EA50D40D1908D1120058DEB8 /* InfoPlist.strings in Resources */,
+				EAF63B2A1941392700C38AB7 /* Intro to Psychology.png in Resources */,
+				EAC0B790191568D500395076 /* Human Growth and Development.csv in Resources */,
+				EA4D66D719141CCD002A5279 /* Samba.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA50D4211908D1130058DEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA50D42F1908D1130058DEB8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA50D3FB1908D1120058DEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA50D43C1908DCBE0058DEB8 /* TPCoursesTableViewController.m in Sources */,
+				EAC8BADA192C25470049DB2E /* TPTableViewCell.m in Sources */,
+				EA971534190B796F002265AB /* TPAnswer.m in Sources */,
+				EA971531190B6D48002265AB /* TPDataModel.m in Sources */,
+				EAF63B1D1941311300C38AB7 /* TPNumbersViewController.m in Sources */,
+				EA50D4131908D1120058DEB8 /* TPAppDelegate.m in Sources */,
+				EA50D40F1908D1120058DEB8 /* main.m in Sources */,
+				EA50D43F1908DDF60058DEB8 /* TPQuestionsViewController.m in Sources */,
+				EAF53A361912F0DB000B7936 /* XYPieChart.m in Sources */,
+				EA97152E190A116B002265AB /* TPOverviewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA50D41F1908D1130058DEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA50D4311908D1130058DEB8 /* TestPrepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA50D4291908D1130058DEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA50D3FE1908D1120058DEB8 /* TestPrep */;
+			targetProxy = EA50D4281908D1130058DEB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA50D40B1908D1120058DEB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA50D40C1908D1120058DEB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA50D4141908D1120058DEB8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA50D4151908D1120058DEB8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EA50D4171908D1120058DEB8 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA50D4181908D1120058DEB8 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EA50D42D1908D1130058DEB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA50D42E1908D1130058DEB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA50D4321908D1130058DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA50D4331908D1130058DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA50D4351908D1130058DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPrep/TestPrep-Prefix.pch";
+				INFOPLIST_FILE = "TestPrep/TestPrep-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA50D4361908D1130058DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPrep/TestPrep-Prefix.pch";
+				INFOPLIST_FILE = "TestPrep/TestPrep-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA50D4381908D1130058DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestPrep.app/TestPrep";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPrep/TestPrep-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestPrepTests/TestPrepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA50D4391908D1130058DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestPrep.app/TestPrep";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPrep/TestPrep-Prefix.pch";
+				INFOPLIST_FILE = "TestPrepTests/TestPrepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA50D3FA1908D1120058DEB8 /* Build configuration list for PBXProject "TestPrep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA50D4321908D1130058DEB8 /* Debug */,
+				EA50D4331908D1130058DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA50D4341908D1130058DEB8 /* Build configuration list for PBXNativeTarget "TestPrep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA50D4351908D1130058DEB8 /* Debug */,
+				EA50D4361908D1130058DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA50D4371908D1130058DEB8 /* Build configuration list for PBXNativeTarget "TestPrepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA50D4381908D1130058DEB8 /* Debug */,
+				EA50D4391908D1130058DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA50D3F71908D1120058DEB8 /* Project object */;
+}
